@@ -1,6 +1,6 @@
 /* Minifier: http://jscompress.com/ */
 
-import { Roll } from "./rolls";
+import { Roll } from "./rolls.js";
 
 export const replay = {
   processReplay: function (data) {

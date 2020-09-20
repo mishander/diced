@@ -6,8 +6,8 @@ import {
   DEFENDER_DOWN,
   TWO_DIE_BLOCK,
   BLOCK,
-} from "./dice";
-import { SKILL_NAME, SKILL, SITUATION } from "./constants";
+} from "./dice.js";
+import { SKILL_NAME, SKILL, SITUATION } from "./constants.js";
 
 // TODO: Switch over to using dice.js for better clarity
 

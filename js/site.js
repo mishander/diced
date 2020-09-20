@@ -1,7 +1,8 @@
 /* Minifier: http://jscompress.com/ */
-import { ROLL_TYPES } from "./rolls";
-import { io } from "./io";
-import { replay } from "./replay";
+
+import { ROLL_TYPES } from "./rolls.js";
+import { io } from "./io.js";
+import { replay } from "./replay.js";
 
 google.load("visualization", "1.0", { packages: ["corechart"] });
 google.setOnLoadCallback(enableFileInput);
