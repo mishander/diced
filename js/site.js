@@ -1,5 +1,3 @@
-/* Minifier: http://jscompress.com/ */
-
 import { ROLL_TYPES } from "./rolls.js";
 import { io } from "./io.js";
 import { replay } from "./replay.js";
@@ -283,11 +281,15 @@ function raceIdToName(raceId) {
     case 9:
       return "Dark Elf";
     case 10:
-      return "Undead";
+          return "Undead";
+    case 12:
+          return "Norse";
     case 14:
       return "Pro Elf";
     case 15:
-      return "High Elf";
+          return "High Elf";
+    case 16:
+          return "Khemri";
     case 17:
       return "Necromantic";
     case 21:
