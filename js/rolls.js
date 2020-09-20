@@ -27,7 +27,7 @@ function sample(list) {
 
 class Player {
   team;
-  #playerState;
+  playerState;
 
   constructor(team, playerState) {
     this.team = team;
@@ -45,7 +45,7 @@ class Player {
 }
 
 class Team {
-  #teamState;
+  teamState;
   constructor(teamState) {
     this.teamState = teamState;
     this.players = this.teamState.listpitchplayers.playerstate.map(
