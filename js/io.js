@@ -1,6 +1,3 @@
-/* Minifier: http://jscompress.com/ */
-//import * as JSZip from "./lib/zipjs";
-
 export const io = {
   xmlToJson: function (file, doneCallback, errorCallback) {
     JSZip.loadAsync(file).then((zip) => {
