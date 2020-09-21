@@ -113,8 +113,8 @@ function updateChart(rolls) {
   // TODO: put details of the action into the popup
   var vlSpec = {
     $schema: "https://vega.github.io/schema/vega-lite/v4.json",
-    width: 1000,
-    height: 300,
+    width: 1200,
+    height: 800,
     data: {
       name: "rolls",
       values: values,
