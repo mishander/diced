@@ -292,6 +292,10 @@ function raceIdToName(raceId) {
       return "Khemri";
     case 17:
       return "Necromantic";
+    case 18:
+      return "Nurgle";
+    case 20:
+      return "Vampire";
     case 21:
       return "Chaos Dwarf";
     case 22:
