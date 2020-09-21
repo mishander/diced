@@ -35,12 +35,13 @@ function extractGameDetails(jsonObject) {
   var firstStep = jsonObject.replay.replaystep[0];
   var lastStep =
         jsonObject.replay.replaystep[jsonObject.replay.replaystep.length - 1];
-  console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!");
+  console.log("Full gameinfo:");
   console.log(firstStep.gameinfos);
   return {
     //fileName: lastStep.ruleseventgamefinished.matchresult.row.replayfilename,
     stadiumName: firstStep.gameinfos.namestadium,
     stadiumType: firstStep.gameinfos.structstadium,
+    leagueName: firstStep.gameinfos.rowleague.name,
     homeTeam: {
       coachName: firstStep.gameinfos.coachesinfos.coachinfos[0].userid,
       teamName: firstStep.boardstate.listteams.teamstate[0].data.name,

@@ -120,6 +120,10 @@ body {
     text-align: center;
 }
 
+.league-name {
+    text-align: center;
+}
+
 #chart {
   width: 100%;
 }

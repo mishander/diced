@@ -560,6 +560,16 @@ class PickupRoll extends ModifiedD6SumRoll {
   }
 }
 
+class BoneHeadRoll extends ModifiedD6SumRoll {
+  static rollName = "BoneHeadRoll";
+  passValue() {
+    return 0.01;
+  }
+  failValue() {
+    return -0.05;
+  }
+}
+
 class ArmorRoll extends ModifiedD6SumRoll {
   static rollName = "Armor";
   static handledSkills = [SKILL.MightyBlow, SKILL.Claw];
@@ -783,7 +793,7 @@ export const ROLL_TYPES = {
   14: null, // Follow up
   16: InterceptionRoll,
   17: WakeUpRoll,
-  //20: BoneHeadRoll,
+  20: BoneHeadRoll,
   //21: ReallyStupidRoll,
   22: WildAnimalRoll,
   //23: LonerRoll,

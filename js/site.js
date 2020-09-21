@@ -323,4 +323,5 @@ function updateGameDetails(gameDetails) {
 
   $("#stadium-name").text(gameDetails.stadiumName);
   $("#stadium-type").text(gameDetails.stadiumType);
+  $("#league-name").text(gameDetails.leagueName);
 }
