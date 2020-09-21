@@ -281,15 +281,15 @@ function raceIdToName(raceId) {
     case 9:
       return "Dark Elf";
     case 10:
-          return "Undead";
+      return "Undead";
     case 12:
-          return "Norse";
+      return "Norse";
     case 14:
       return "Pro Elf";
     case 15:
-          return "High Elf";
+      return "High Elf";
     case 16:
-          return "Khemri";
+      return "Khemri";
     case 17:
       return "Necromantic";
     case 21:
@@ -322,4 +322,5 @@ function updateGameDetails(gameDetails) {
   $("#away-score").text(gameDetails.awayTeam.score);
 
   $("#stadium-name").text(gameDetails.stadiumName);
+  $("#stadium-type").text(gameDetails.stadiumType);
 }

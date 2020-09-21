@@ -40,7 +40,7 @@ function extractGameDetails(jsonObject) {
   return {
     //fileName: lastStep.ruleseventgamefinished.matchresult.row.replayfilename,
     stadiumName: firstStep.gameinfos.namestadium,
-    // stadiumType: firstStep.gameinfos.stadium,
+    stadiumType: firstStep.gameinfos.structstadium,
     homeTeam: {
       coachName: firstStep.gameinfos.coachesinfos.coachinfos[0].userid,
       teamName: firstStep.boardstate.listteams.teamstate[0].data.name,

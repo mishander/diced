@@ -116,6 +116,10 @@ body {
   text-align: center;
 }
 
+.stadium-type {
+    text-align: center;
+}
+
 #chart {
   width: 100%;
 }
