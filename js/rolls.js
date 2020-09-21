@@ -751,7 +751,6 @@ class CasualtyRoll extends Roll {
     return [dice[dice.length - 1]];
   }
   value(dice) {
-    return 0;
     if (dice < 40) {
       return 0; // Badly Hurt
     } else if (dice < 50) {
